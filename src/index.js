@@ -2,13 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import  UploadButtons from "./App2"
+import  UploadButtons from "./App2";
+import IconLabelButtons from "./App3";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <UploadButtons/>
+    <IconLabelButtons/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
