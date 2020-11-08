@@ -4,10 +4,9 @@ import Button from '@material-ui/core/Button';
 function App() {
   return (
     <div >
-      hi
       <Button variant="contained" color="primary">
       Hello World
-    </Button>
+    </Button><Button variant="contained" color="secondary" onClick={() => { alert('clicked') }}>Click me</Button>
     </div>
   );
 }
