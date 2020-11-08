@@ -38,6 +38,19 @@ const useStyles = makeStyles((theme) => ({
             <PhotoCamera />
           </IconButton>
         </label>
+        <div>
+        <div>
+        <Button variant="outlined" size="small" color="primary" className={classes.margin}>
+          Small
+        </Button>
+        <Button variant="outlined" size="medium" color="primary" className={classes.margin}>
+          Medium
+        </Button>
+        <Button variant="outlined" size="large" color="primary" className={classes.margin}>
+          Large
+        </Button>
+      </div>
+        </div>
       </div>
     );
   }
