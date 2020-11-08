@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import  UploadButtons from "./App2";
+import  ButtonAppBar from "./App4";
 import IconLabelButtons from "./App3";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <ButtonAppBar/><br/>    
     <App />
     <UploadButtons/>
     <IconLabelButtons/>
